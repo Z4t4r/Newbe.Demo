@@ -10,6 +10,8 @@ namespace Newbe.Blazors.Template
     {
         public static async Task Main(string[] args)
         {
+
+            Console.WriteLine("Startup");
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
